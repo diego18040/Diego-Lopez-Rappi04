@@ -1,0 +1,1012 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /*outline: solid 1px red*/
+}
+/*Establecer medidad del header*/
+header {
+    height: 15vh;
+    padding: 0.7rem;
+    background-color:rgb(61, 146, 185);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.marlogo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    height: 240px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+nav a{
+    margin:0.2rem;
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: rgb(238, 9, 97);
+}
+/*Inicia el main*/
+main{
+    margin: 20px;
+    border: solid rgb(234, 238, 21) 2px;
+    height: auto;
+    padding: 1rem;
+    background-color: pink;
+}
+.nameofpage{
+    display: flex;
+    justify-content:space-between ;
+
+}
+.nameofpage h1{ /*nombre de la pagina */
+    margin-top: 0rem;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    padding: 0.7rem;
+}
+span{
+    color: rgb(2458,35,70);
+}
+/*main h2{  /*home
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding: 0.7rem;
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-right: 105rem;
+}*/
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.aside h3{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 3rem;
+    color: black;
+}
+.inicio{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.inicio img{ /*Imagen de inicio arriba*/
+    height: 300px;
+    width: 38%;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.asideHome{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+.asideHome img{
+    margin: 2rem;
+    height: 330px;
+    width: 40%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    object-fit: cover;
+
+}
+.asideHome p{
+    width: 35rem;
+    height: 18rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+footer{
+    height: auto;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+.resevated{
+    align-items: center;
+    align-content: center;
+    margin-bottom:0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    
+}
+/*About Us*/
+.generalabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutcenter{
+    display: flex;
+    width: 100%;
+}
+.aboutimages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.aboutimages img{
+    height: 300px;
+    width: 340px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 2rem;
+    border: 2px solid black;
+}
+.text1 h4{
+    font-size: 1.8rem;
+    color: black;
+}
+/*#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1.8rem;
+    color: black;
+    
+}*/
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 11rem;
+    margin-right: 9rem;
+}
+/*Contact*/
+.contact{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+.contact img{
+    height: 300px;
+    width: 38%;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+aside h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 2rem;
+    color: black;
+}
+aside h6{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+/*More information*/
+table{
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: pink;
+    font-size: 2rem;
+    border-collapse: collapse;
+
+}
+tbody{
+    margin: 30px;
+    padding: 15px;
+}
+h3{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 3rem;
+    text-align: center;
+}
+.bordes{
+    margin-top: 2rem;
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+th{
+    margin: 30px;
+    padding: 15px;
+    border: solid rgb(196, 163, 18) 3px;
+    text-align: center;
+    color: black;
+}
+
+td{
+   margin: 30px;
+   padding: 15px;
+    border: solid rgb(196, 163, 18) 3px;
+    text-align: center;
+    color: black
+}
+/*Benefits and tips*/
+
+.Basecont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefitsTips{
+    width: 80%;
+    margin-top: 2.5rem;
+
+}
+.order_tips{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.order_tips figure{
+    width: 30%;
+}
+.order_tips figure h5{
+    text-align: center;
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.8rem;
+
+}
+.order_tips figure img {
+    width: 400px;
+    height: 400px;
+    border-radius: 1rem;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.order_1-tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: disc;
+    font-size: 1.6rem;
+    text-align: justify;
+    flex: 0 0 40rem;
+
+}
+.no-dot{
+    list-style-type: none;
+}
+.clasificacion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(233, 155, 10);
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+/*Raffle*/
+.mapscenter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.mapas{
+    margin: 2rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+iframe{
+    width: 30vw;
+    height: 60vh;
+    outline: 2px solid black;
+}
+.label{
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+select{
+    width: 38.2vw;
+    height: 3vh;
+}
+.inputField{
+    width: 38.2vw;
+    height: 3vh;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+}
+.inputGroup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    outline: 2px solid black;
+    font-size: 1.6rem;
+    height: 90vh;
+    width: 40vw;
+
+}
+.enviar{
+    background-color: rgb(0, 174, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: end;
+    width: 20%;
+    font-size: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    height: 50%;
+}
+.form h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width:1024px) {
+    .marlogo{
+        justify-content: center;
+    }
+    .logo{
+        width: 290px;
+        height: 290px;
+    }
+    nav a{
+        font-size: 1.3rem;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .aside h3{
+        text-align: center;
+        font-size: 2.6rem;
+
+    }
+    /*About*/
+    .text1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .text1 h4{
+        font-size: 1.4rem;
+        color: black;
+    }
+    /*Contact*/
+    aside h5{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    aside h6{
+        font-size: 1.4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*Benefist*/
+  
+.Basecont{
+    flex-direction: row;
+}
+.benefitsTips{
+    width: 80%;
+    margin-top: 2.5rem;
+
+}
+.order_tips{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.order_tips figure{
+    width: 30%;
+}
+.order_tips figure img {
+    width: 300px;
+    height: 300px;
+}
+.order_1-tips{
+    align-items: center;
+    margin-left: 3rem;
+    
+}
+    /*Raffle*/
+    .mapas{
+        height: 50vh;
+
+    }
+    iframe{
+        width: 40vw;
+        height: 50vh;
+    }
+    .label{
+        width: 50vh;
+    }
+    form{
+        width: 50vh;
+
+    }
+    select{
+        width: 25rem;
+    }
+    .inputField{
+        width: 25rem;
+        height: 3vh;
+    }
+    .enviar{
+        width: 20%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header{
+        height: 50vh;
+        flex-direction: column
+    }
+    .marlogo{
+        justify-content: center;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;
+    }
+    header nav{
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+    nav a{
+        font-size: 1rem;
+        align-items: center;
+        align-content: center;
+        width: 20rem;
+        height: 2rem;
+        text-align: center;
+    }
+    .aside h3{
+        font-size: 1.4rem;
+    }
+    .inicio img{
+        height: 220px;
+        width: 80%;
+
+    }
+    .asideHome{
+        flex-direction: column;
+
+    }
+    .asideHome img{
+        height: 250px;
+        width: 60%;
+    
+    }
+    .asideHome p{
+        width: 35rem;
+        height: 8rem;
+        font-size: 1.3rem;
+    }
+    /*About*/
+    .aboutcenter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        align-content: center;
+    }
+    .aboutimages{
+        align-items: center;
+    }
+    .text1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .text1 h4{
+        font-size: 1.4rem;
+        color: black;
+    }
+    /*Contact*/
+    .contact img{
+        height: 300px;
+        width: 80%;
+    }
+    aside h5{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    aside h6{
+        font-size: 1.4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    /*Benefist*/
+    .Basecont{
+        flex-direction: column;
+    }
+    .benefitsTips{
+        width: 80%;
+        margin-top: 2.5rem;
+    
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    .order_tips{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .order_1-tips{
+        justify-content: center;
+        text-align: center;
+        margin-left: 3rem;
+        flex: 0 0 10rem;
+    
+    }
+    .order_tips figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .order_tips figure img {
+        margin: 1rem;
+    }
+    /*Raffle*/
+    .mapscenter{
+        flex-direction: column-reverse;
+    }
+    .mapas{
+        flex-direction: column;
+        height: 50vh;
+        width: 60vh;
+    }
+    iframe{
+        width: 60vh;
+        height: 50vh;
+    }
+    .label{
+        width: 60vh;
+    }
+    form{
+        width: 60vh;
+
+    }
+    select{
+        width: 30rem;
+    }
+    .inputField{
+        width: 30rem;
+        height: 3vh;
+    }
+    .enviar{
+        width: 20%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    header{
+        height: 50vh;
+        flex-direction: column
+    }
+    .marlogo{
+        justify-content: center;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;
+    }
+    header nav{
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+    nav a{
+        font-size: 1rem;
+        align-items: center;
+        align-content: center;
+        width: 20rem;
+        height: 2rem;
+        text-align: center;
+    }
+    .nameofpage h1{
+        font-size: 1.2rem;
+    }
+    .aside h3{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .inicio img{
+        height: 180px;
+        width: 80%;
+
+    }
+    .section{
+        justify-content: center;
+    }
+    .asideHome{
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+    .asideHome img{
+        height: 210px;
+        width: 80%;
+    
+    }
+    .asideHome p{
+        width: 20rem;
+        height: 12rem;
+        font-size: 1.3rem;
+    }
+    /*About*/
+    .aboutcenter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        align-content: center;
+    }
+    .aboutimages{
+        align-items: center;
+    }
+    .text1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .text1 h4{
+        font-size: 1.4rem;
+        color: black;
+    }
+    /*Contact*/
+    .contact img{
+        height: 300px;
+        width: 100%;
+    }
+    aside h5{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    aside h6{
+        font-size: 1.4rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        text-align: justify;
+    }
+    /*Benefist*/
+    h3{
+        font-size: 1.8rem;
+    }
+    .order_tips{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+    .order_1-tips{
+        justify-content: flex-start;
+        flex: 0 0 10rem;
+    
+    }
+    .order_1-tips{
+        font-size: 1.2rem;
+    }
+    .order_tips figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .order_tips figure img {
+        margin: 1rem;
+        width: 300px;
+        height: 300px;
+    }
+    /*Raffle*/
+    .mapscenter{
+        flex-direction: column-reverse;
+    }
+    .mapas{
+        flex-direction: column;
+        height: 30vh;
+        width: 32vh;
+    }
+    iframe{
+        width: 32vh;
+        height: 30vh;
+    }
+    .label{
+        width: 32vh;
+    }
+    select{
+        width: 15rem;
+    }
+    .inputField{
+        width: 15rem;
+        height: 3vh;
+    }
+    form{
+        width: 32vh;
+        font-size: 1.2rem;
+
+    }
+    .form h1{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .enviar{
+        margin-top: 1rem;
+        width: 40%;
+        font-size: 1.2rem;
+    }
+    /*More information*/
+    table{
+        margin: 5px;
+        padding: 3px;
+    }
+    tbody{
+        margin: 5px;
+        padding: 3px;
+    }
+    .bordes{
+        margin: 5px;
+        padding: 3px;
+    }
+    th{
+        margin: 5px;
+        padding: 3px;
+        font-size: 1.8rem;
+    }
+    td{
+        margin: 5px;
+        padding: 3px;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .nameofpage h1{
+        font-size: 1rem;
+    }
+    .aside h3{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .inicio img{
+        height: 160px;
+        width: 80%;
+
+    }
+    .section{
+        justify-content: center;
+    }
+    .asideHome{
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+    .asideHome img{
+        height: 210px;
+        width: 80%;
+    
+    }
+    .asideHome p{
+        width: 15rem;
+        height: 12rem;
+        font-size: 1.2rem;
+    }
+    /*About*/
+    .aboutcenter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        align-content: center;
+    }
+    .aboutimages{
+        align-items: center;
+    }
+    .aboutimages img{
+        height: 200px;
+        width: 250px;
+    }
+    .text1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .text1 h4{
+        font-size: 1.2rem;
+        color: black;
+    }
+    /*Contact*/
+    .contact img{
+        height: 300px;
+        width: 100%;
+    }
+    aside h5{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    aside h6{
+        font-size: 1.2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        text-align: justify;
+    }
+    /*Benefist*/
+    h3{
+        font-size: 1.8rem;
+    }
+    .order_tips{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+    .order_1-tips{
+        justify-content: flex-start;
+        flex: 0 0 10rem;
+    
+    }
+    .order_1-tips{
+        font-size: 1.2rem;
+    }
+    .order_tips figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .order_tips figure img {
+        margin: 1rem;
+        width: 300px;
+        height: 300px;
+    }
+    /*Raffle*/
+    .mapscenter{
+        flex-direction: column-reverse;
+    }
+    .mapas{
+        flex-direction: column;
+        height: 25vh;
+        width: 28vh;
+    }
+    iframe{
+        width: 28vh;
+        height: 25vh;
+    }
+    .label{
+        width: 28vh;
+    }
+    select{
+        width: 13rem;
+    }
+    .inputField{
+        width: 13rem;
+        height: 3vh;
+    }
+    form{
+        width: 28vh;
+        font-size: 1.2rem;
+
+    }
+    .form h1{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .enviar{
+        margin-top: 1rem;
+        width: 40%;
+        font-size: 1.2rem;
+    }
+    /*More information*/
+    table{
+        margin: 4px;
+        padding: 4px;
+    }
+    tbody{
+        margin: 4px;
+        padding: 4px;
+    }
+    .bordes{
+        margin: 4px;
+        padding: 4px;
+    }
+    th{
+        margin: 4px;
+        padding: 4px;
+        font-size: 1.2rem;
+    }
+    td{
+        margin: 4px;
+        padding: 4px;
+        font-size: 1.2rem;
+    }
+}
+/*Diego Lopez 26/05/2024*/
